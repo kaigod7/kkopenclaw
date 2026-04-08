@@ -87,3 +87,23 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+### 备份（永久记住）
+
+| 周期 | 触发 | 目标 |
+|------|------|------|
+| ~30分钟 | heartbeat 自动 | 本地 `~/openclaw-backup/` |
+| 每天 16:00 | LaunchDaemon | 本地 + GitHub `kaigod7/kkopenclaw` |
+| 每天 03:00 | LaunchDaemon | 本地备份 |
+
+备份脚本：`~/.openclaw/workspace/scripts/backup_openclaw.sh`
+- `bash backup_openclaw.sh local` — 仅本地（heartbeat 调用）
+- `bash backup_openclaw.sh github` — 本地 + GitHub（16:00 调用）
+
+GitHub Token：`~/.openclaw/workspace/.gh-token`（本地私有，不上传 GitHub）
+
+macOS LaunchDaemon：
+- `~/Library/LaunchAgents/com.openclaw.backup.plist`（03:00 本地）
+- `~/Library/LaunchAgents/com.openclaw.backup-github.plist`（16:00 GitHub）
+
+GitHub 仓库：github.com/kaigod7/kkopenclaw
