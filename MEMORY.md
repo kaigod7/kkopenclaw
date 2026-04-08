@@ -29,5 +29,18 @@ data = {
 ## 学习内容存档（见 memory/LEARNED-CATALOG.md）
 
 - Darktable 修图技巧：memory/darktable-tips.md
+- Darktable 预设风格参数：memory/darktable-presets-styles.md
 - Python 修图技巧：memory/python-photo-editing.md
 - 学习来源：tavily 全网搜索、官方文档、社区论坛
+
+## 备份方式（永久记住）
+
+- **本地备份**：每次 heartbeat（~30分钟）自动执行 `backup_openclaw.sh local` → `~/openclaw-backup/`
+- **GitHub 备份**：每天下午 16:00 自动执行 `backup_openclaw.sh github` → 推送至 `github.com/kaigod7/kkopenclaw`
+- **GitHub 推送逻辑**：检查 `~/openclaw-backup/.github_pushed_today` 标记，每日只推一次
+- **备份脚本**：`~/.openclaw/workspace/scripts/backup_openclaw.sh`
+- **恢复脚本**：`~/.openclaw/workspace/scripts/restore_openclaw.sh`
+- **macOS LaunchDaemon（稳定，不受 cron 问题影响）：**
+  - `com.openclaw.backup` → 每天 03:00，本地备份
+  - `com.openclaw.backup-github` → 每天 16:00，本地 + GitHub 推送
+- **GitHub PAT**： stored in TOOLS.md（不在 MEMORY.md 明文存储）
