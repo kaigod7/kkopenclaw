@@ -27,7 +27,7 @@ Things like:
 
 ### TTS（飞书语音）
 
-- 当前默认：柔软女孩（Chinese (Mandarin)_Soft_Girl，MiniMax）
+- 当前默认：柔软女孩（Chinese (Mandarin)_Soft_Girl，MiniMax speech-2.8-hd）
 - 音色表：~/.openclaw/workspace/voice_favorites.json
 - 快捷切换：python3 ~/.openclaw/workspace/scripts/voice_switch.py <编号或名字> <文本>
 
@@ -35,14 +35,14 @@ Things like:
 
 - **音色**：MiniMax「柔软女孩」(Chinese (Mandarin)_Soft_Girl)
 - **voice_id**：female-shaonv（需嵌套在 voice_setting 对象里）
-- **API Key**：`sk-api-A9Ep19sBDPGn_ku4UnKRh1ljpeP8S8xHhc5sBbxr7kgncLbif7ZSpPg8LaLBR7Sg_IbFHJpkbzVt77hkca4jFbmbaF8MCLMqPf3x9bd9EGBTJxggKLtKTww`
+- **API Key**：`sk-cp-bPFNVq_Y_-aLXt5y8eC-NsH3jYU7zlnVmLLg497Fp-vdGt44YM1ejvr4d8VqFvRIcQPis3X7HrFkKFckZKOjhiyeZxD2AHGDXFTNjZ2OZ3Sq_pWOWe31Yb8`
 - **API 端点**：`https://api.minimaxi.com/v1/t2a_v2`
-- **模型**：speech-02-hd
+- **模型**：speech-2.8-hd
 - **返回格式**：hex 字符串，用 `bytes.fromhex()` 解码
 - **正确请求格式**：
   ```python
   data = {
-      "model": "speech-02-hd",
+      "model": "speech-2.8-hd",
       "text": "文字",
       "voice_setting": {"voice_id": "female-shaonv"},
       "stream": False
