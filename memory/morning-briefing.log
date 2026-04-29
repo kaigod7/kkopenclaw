@@ -1,0 +1,674 @@
+=== Fri Apr 10 08:16:47 CST 2026 早间简报开始 ===
+[Fri Apr 10 08:16:47 CST 2026] 开始执行
+[Fri Apr 10 08:16:48 CST 2026] 天气获取成功: 19°C
+[Fri Apr 10 08:16:49 CST 2026] 发送成功: om_x100b52b059c28ca4b37f8d119a1ae8a
+[Fri Apr 10 08:16:49 CST 2026] === 完成 ===
+SEND_OK: om_x100b52b059c28ca4b37f8d119a1ae8a
+=== Fri Apr 10 08:20:39 CST 2026 早间简报开始 ===
+[Fri Apr 10 08:20:39 CST 2026] 开始执行
+[Fri Apr 10 08:20:40 CST 2026] 天气获取成功: 19°C
+[Fri Apr 10 08:20:41 CST 2026] 发送成功: om_x100b52b06b42f4a0b4b1642004e881c
+[Fri Apr 10 08:20:41 CST 2026] === 完成 ===
+SEND_OK: om_x100b52b06b42f4a0b4b1642004e881c
+=== Fri Apr 10 08:26:38 CST 2026 早间简报开始 ===
+[Fri Apr 10 08:26:38 CST 2026] 开始执行
+[Fri Apr 10 08:26:39 CST 2026] 天气获取成功: 19°C
+[Fri Apr 10 08:26:40 CST 2026] 发送成功: om_x100b52b07533cca4b4a87a3e7b394fb
+[Fri Apr 10 08:26:40 CST 2026] === 完成 ===
+SEND_OK: om_x100b52b07533cca4b4a87a3e7b394fb
+=== Fri Apr 10 08:30:43 CST 2026 早间简报开始 ===
+[Fri Apr 10 08:30:44 CST 2026] 开始执行
+[Fri Apr 10 08:30:44 CST 2026] 天气获取成功: 19°C
+[Fri Apr 10 08:30:45 CST 2026] 发送成功: om_x100b52b005998ca8b4a3219e1d88394
+[Fri Apr 10 08:30:45 CST 2026] === 完成 ===
+SEND_OK: om_x100b52b005998ca8b4a3219e1d88394
+=== Sat Apr 11 08:00:01 CST 2026 早间简报开始 ===
+[Sat Apr 11 08:00:01 CST 2026] 开始执行
+[Sat Apr 11 08:00:03 CST 2026] 天气错误: HTTP Error 500: Internal Server Error
+[Sat Apr 11 08:00:04 CST 2026] 发送成功: om_x100b52acbef19d3cb2ccb1f72e88321
+[Sat Apr 11 08:00:04 CST 2026] === 完成 ===
+SEND_OK: om_x100b52acbef19d3cb2ccb1f72e88321
+=== Sun Apr 12 08:00:04 CST 2026 早间简报开始 ===
+[Sun Apr 12 08:00:04 CST 2026] 开始执行
+[Sun Apr 12 08:00:05 CST 2026] 天气获取成功(wttr.in): 16°C
+[Sun Apr 12 08:00:08 CST 2026] 新闻获取成功(Tavily): 10 条 (key: tvly-dev-43Q...)
+[Sun Apr 12 08:00:08 CST 2026] 发送成功: om_x100b529a464778a4b20bb2dd8bd3e10
+[Sun Apr 12 08:00:09 CST 2026] === 完成 ===
+SEND_OK: om_x100b529a464778a4b20bb2dd8bd3e10
+=== Sun Apr 12 13:00:46 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:00:46 CST 2026] 开始执行
+[Sun Apr 12 13:00:47 CST 2026] 天气错误(Open-Meteo): HTTP Error 400: Bad Request
+[Sun Apr 12 13:00:48 CST 2026] AQI使用默认值（wttr.in无AQI）
+[Sun Apr 12 13:00:51 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:00:51 CST 2026] 发送成功: om_x100b52863ef4d0a0b3b77595b09f44b
+[Sun Apr 12 13:00:51 CST 2026] === 完成 ===
+SEND_OK: om_x100b52863ef4d0a0b3b77595b09f44b
+=== Sun Apr 12 13:01:49 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:01:49 CST 2026] 开始执行
+[Sun Apr 12 13:01:56 CST 2026] 天气获取成功: 阵雨 15.9°C
+[Sun Apr 12 13:02:01 CST 2026] AQI使用默认值（wttr.in无AQI）
+[Sun Apr 12 13:02:02 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:02:03 CST 2026] 发送成功: om_x100b52863a6370a4b2080bfb53708bf
+[Sun Apr 12 13:02:03 CST 2026] === 完成 ===
+SEND_OK: om_x100b52863a6370a4b2080bfb53708bf
+=== Sun Apr 12 13:03:48 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:03:48 CST 2026] 开始执行
+[Sun Apr 12 13:03:54 CST 2026] 天气获取成功: 阵雨 15.9°C
+[Sun Apr 12 13:03:56 CST 2026] AQI使用默认值（wttr.in无AQI）
+[Sun Apr 12 13:03:58 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:03:59 CST 2026] 发送成功: om_x100b5286352650a0b4b4ee369e35433
+[Sun Apr 12 13:03:59 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286352650a0b4b4ee369e35433
+=== Sun Apr 12 13:07:30 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:07:31 CST 2026] 开始执行
+[Sun Apr 12 13:07:31 CST 2026] 天气获取成功: 阵雨 15.9°C
+[Sun Apr 12 13:07:33 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:07:48 CST 2026] 翻译失败: The read operation timed out
+[Sun Apr 12 13:07:49 CST 2026] 发送成功: om_x100b5286c486d06cb3b1ccd6cde29e2
+[Sun Apr 12 13:07:49 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286c486d06cb3b1ccd6cde29e2
+=== Sun Apr 12 13:08:28 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:08:28 CST 2026] 开始执行
+[Sun Apr 12 13:08:36 CST 2026] 天气获取成功: 阵雨 15.9°C
+[Sun Apr 12 13:08:41 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:08:54 CST 2026] 翻译成功: 10 条
+[Sun Apr 12 13:08:55 CST 2026] 发送成功: om_x100b5286c0be64a0b39eeede5165bc2
+[Sun Apr 12 13:08:55 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286c0be64a0b39eeede5165bc2
+=== Sun Apr 12 13:12:09 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:12:09 CST 2026] 开始执行
+[Sun Apr 12 13:12:10 CST 2026] 天气获取成功: 阵雨 15.9°C
+[Sun Apr 12 13:12:12 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:12:42 CST 2026] 翻译失败: The read operation timed out
+[Sun Apr 12 13:12:42 CST 2026] 发送成功: om_x100b5286d26634a0b32393cc0ba57ad
+[Sun Apr 12 13:12:43 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286d26634a0b32393cc0ba57ad
+=== Sun Apr 12 13:13:11 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:13:11 CST 2026] 开始执行
+[Sun Apr 12 13:13:13 CST 2026] 天气获取成功: 阵雨 15.9°C
+[Sun Apr 12 13:13:14 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:13:25 CST 2026] 翻译成功: 10 条
+[Sun Apr 12 13:13:26 CST 2026] 发送成功: om_x100b5286d193a4a4b4b0cc0454b4b1d
+[Sun Apr 12 13:13:26 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286d193a4a4b4b0cc0454b4b1d
+=== Sun Apr 12 13:21:09 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:21:09 CST 2026] 开始执行
+[Sun Apr 12 13:21:10 CST 2026] 天气获取成功: 阵雨 16.0°C
+[Sun Apr 12 13:21:11 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:22:31 CST 2026] 翻译成功: 10 条
+[Sun Apr 12 13:22:32 CST 2026] 发送成功: om_x100b52868fb160a0b369306812da084
+[Sun Apr 12 13:22:32 CST 2026] === 完成 ===
+SEND_OK: om_x100b52868fb160a0b369306812da084
+=== Sun Apr 12 13:25:47 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:25:47 CST 2026] 开始执行
+[Sun Apr 12 13:25:49 CST 2026] 天气获取成功: 阵雨 16.0°C
+[Sun Apr 12 13:25:53 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:27:20 CST 2026] 翻译成功: 10 条
+[Sun Apr 12 13:27:21 CST 2026] 发送成功: om_x100b52869d5a9cacb4cde74d8fce2df
+[Sun Apr 12 13:27:21 CST 2026] === 完成 ===
+SEND_OK: om_x100b52869d5a9cacb4cde74d8fce2df
+=== Sun Apr 12 13:29:36 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:29:37 CST 2026] 开始执行
+[Sun Apr 12 13:29:38 CST 2026] 天气获取成功: 阵雨 16.0°C
+[Sun Apr 12 13:29:39 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:29:47 CST 2026]   回退[1]: 14-year-old running for governor of Vermont - CBS News
+[Sun Apr 12 13:29:57 CST 2026]   回退[2]: Artemis II crew regains contact with Earth after planned bla
+[Sun Apr 12 13:30:07 CST 2026]   回退[3]: Physicist and former NASA astronaut says new moon images off
+[Sun Apr 12 13:30:23 CST 2026]   回退[4]: Decorated F-16 fighter pilot describes what went into missio
+[Sun Apr 12 13:30:38 CST 2026]   翻译[5]: 搜救行动进行中，一名女子在巴哈马乘船时据其丈夫称跌入海中——CBS新闻
+[Sun Apr 12 13:30:52 CST 2026]   回退[6]: Watch: Trump calls Artemis II crew, congratulates them on hi
+[Sun Apr 12 13:31:12 CST 2026]   回退[7]: Artemis II loops far side of the moon, goes through planned 
+[Sun Apr 12 13:31:22 CST 2026]   回退[8]: How Artemis II crew will spend last days of mission - CBS Ne
+[Sun Apr 12 13:31:33 CST 2026]   翻译[9]: 未来两周在美国‑伊朗停火期间需要关注的事项
+[Sun Apr 12 13:31:52 CST 2026]   回退[10]: Signs of compassion from a deaf first-grader's classmates - 
+[Sun Apr 12 13:31:53 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:31:54 CST 2026] 发送成功: om_x100b5286aa6ea104b26df759580d81e
+[Sun Apr 12 13:31:54 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286aa6ea104b26df759580d81e
+=== Sun Apr 12 13:32:37 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:32:37 CST 2026] 开始执行
+[Sun Apr 12 13:32:38 CST 2026] 天气获取成功: 阵雨 16.0°C
+[Sun Apr 12 13:32:40 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:32:50 CST 2026]   翻译[1]: 翻译成中文，只输出中文，不要任何英文或解释：14-year-old running for governor of Ve
+[Sun Apr 12 13:32:59 CST 2026]   翻译[2]: Artemis II 机组人员在计划性通讯中断后重新与地球取得联系 | 特别报道 - CBS 新闻
+[Sun Apr 12 13:33:09 CST 2026]   翻译[3]: 物理学家兼前NASA宇航员表示，新的月球图像提供了新的视角 - CBS新闻
+[Sun Apr 12 13:33:21 CST 2026]   翻译[4]: 获得勋章的F-16战斗机飞行员描述了从伊朗营救美国飞行员的行动细节 - CBS新闻
+[Sun Apr 12 13:33:32 CST 2026]   翻译[5]: 搜救进行中，寻找一名女子，其丈夫称她在巴哈马乘坐游船时落水 - CBS 新闻
+[Sun Apr 12 13:33:42 CST 2026]   翻译[6]: 翻译成中文，只输出中文，不要任何英文或解释
+[Sun Apr 12 13:33:52 CST 2026]   翻译[7]: Artemis II 绕月远侧飞行，经历计划中的通信中断 | 特别报道 - CBS新闻
+[Sun Apr 12 13:34:04 CST 2026]   翻译[8]: 翻译成中文，只输出中文，不要任何英文或解释：How Artemis II crew will spend last da
+[Sun Apr 12 13:34:14 CST 2026]   翻译[9]: 翻译成中文，只输出中文，不要任何英文或解释：What to watch for over next 2 weeks am
+[Sun Apr 12 13:34:24 CST 2026]   翻译[10]: 翻译成中文，只输出中文，不要任何英文或解释：Signs of compassion from a deaf first-
+[Sun Apr 12 13:34:25 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:34:26 CST 2026] 发送成功: om_x100b5286a0d05ca4b4cb3a752d56706
+[Sun Apr 12 13:34:26 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286a0d05ca4b4cb3a752d56706
+=== Sun Apr 12 13:35:25 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:35:25 CST 2026] 开始执行
+[Sun Apr 12 13:35:31 CST 2026] 天气获取成功: 阵雨 16.0°C
+[Sun Apr 12 13:35:32 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:35:42 CST 2026]   [1] 翻译成中文，只输出中文，不要任何英文或解释：Almanac: April 5 - CBS News
+[Sun Apr 12 13:35:50 CST 2026]   [2] 美国被更深地卷入战争，特朗普呼吁伊朗接受协议——CBS新闻
+[Sun Apr 12 13:36:01 CST 2026]   [3] 翻译成中文，只输出中文，不要任何英文或解释：Search underway for woman after husban
+[Sun Apr 12 13:36:11 CST 2026]   [4] 聋童同学的同情迹象 - CBS新闻
+[Sun Apr 12 13:36:20 CST 2026]   [5] Artemis II 宇航员向地球发送复活节信息：“在这
+[Sun Apr 12 13:36:31 CST 2026]   [6] 翻译成中文，只输出中文，不要任何英文或解释：
+[Sun Apr 12 13:36:42 CST 2026]   [7] 翻译成中文，只输出中文，不要任何英文或解释：Decorated F-16 fighter pilot describes
+[Sun Apr 12 13:36:54 CST 2026]   [8] 2026年4月4日 华盛顿 @ 迈阿密 - 法语 (AI生成) - NBA
+[Sun Apr 12 13:37:04 CST 2026]   [9] 14岁少年竞选佛蒙特州州长 - CBS新闻
+[Sun Apr 12 13:37:14 CST 2026]   [10] 翻译成中文，只输出中文，不要任何英文或解释：
+[Sun Apr 12 13:37:15 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:37:16 CST 2026] 发送成功: om_x100b5286b67634a0b39bf424a7e3345
+[Sun Apr 12 13:37:16 CST 2026] === 完成 ===
+SEND_OK: om_x100b5286b67634a0b39bf424a7e3345
+=== Sun Apr 12 13:38:23 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:38:23 CST 2026] 开始执行
+[Sun Apr 12 13:38:24 CST 2026] 天气获取成功: 阵雨 16.0°C
+[Sun Apr 12 13:38:28 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:38:36 CST 2026]   [1] 年鉴：4月5日 - CBS新闻
+[Sun Apr 12 13:38:48 CST 2026]   [2] The user wants translation into Chinese, only output Chinese
+[Sun Apr 12 13:38:57 CST 2026]   [3] The user requests to translate the given English headline in
+[Sun Apr 12 13:39:08 CST 2026]   [4] The user asks: "翻译成中文，只输出中文，不要任何英文或解释：" which translates to 
+[Sun Apr 12 13:39:19 CST 2026]   [5] The user says: "翻译成中文，只输出中文，不要任何英文或解释：Artemis II astronaut h
+[Sun Apr 12 13:39:30 CST 2026]   [6] The user asks: "翻译成中文，只输出中文，不要任何英文或解释："Schitt's Creek" star 
+[Sun Apr 12 13:39:41 CST 2026]   [7] The user asks: "翻译成中文，只输出中文，不要任何英文或解释：Decorated F-16 fighter
+[Sun Apr 12 13:39:50 CST 2026]   [8] The user says: "翻译成中文，只输出中文，不要任何英文或解释：WAS @ MIA on 2026-04-0
+[Sun Apr 12 13:39:59 CST 2026]   [9] 14岁少年竞选佛蒙特州州长 - CBS新闻
+[Sun Apr 12 13:40:10 CST 2026]   [10] The user says: "翻译成中文，只输出中文，不要任何英文或解释：Employment+%26%238211%
+[Sun Apr 12 13:40:12 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:40:13 CST 2026] 发送成功: om_x100b52874d1820a0b322e87d99f6c71
+[Sun Apr 12 13:40:13 CST 2026] === 完成 ===
+SEND_OK: om_x100b52874d1820a0b322e87d99f6c71
+=== Sun Apr 12 13:44:38 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:44:38 CST 2026] 开始执行
+[Sun Apr 12 13:44:39 CST 2026] 天气获取成功: 阵雨 16.0°C
+[Sun Apr 12 13:44:40 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:44:49 CST 2026]   [1] 请把这段英文翻译成中文，直接输出译文，不需要说明：Almanac: April 5 - CBS News
+[Sun Apr 12 13:45:04 CST 2026]   [2] 美国被更深地卷入战争，特朗普呼吁伊朗
+[Sun Apr 12 13:45:16 CST 2026]   [3] 请把这段英文翻译成中文，直接输出译文，不需要说明：Search underway for woman after hus
+[Sun Apr 12 13:45:27 CST 2026]   [4] 请把这段英文翻译成中文，直接输出译文，不需要说明：Signs of compassion...
+[Sun Apr 12 13:45:38 CST 2026]   [5] Artemis II 宇航员向地球发送复活节信息：
+[Sun Apr 12 13:45:49 CST 2026]   [6] 请把这段英文翻译成中文，直接输出译文，不需要说明：
+[Sun Apr 12 13:45:58 CST 2026]   [7] 请把这段英文翻译成中文，直接输出译文，不需要说明：Decorated F-16 fighter pilot descri
+[Sun Apr 12 13:46:08 CST 2026]   [8] 请把这段英文翻译成中文，直接输出译文，不需要说明
+[Sun Apr 12 13:46:18 CST 2026]   [9] 请把这段英文翻译成中文，直接输出译文，不需要说明：14-year-old running for governor of
+[Sun Apr 12 13:46:28 CST 2026]   [10] 请把这段英文翻译成中文，直接输出译文，不需要说明：Employment+%26%238211%3B+Tortious+i
+[Sun Apr 12 13:46:30 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:46:31 CST 2026] 发送成功: om_x100b528755a6c0a8b4b08bf87d367b2
+[Sun Apr 12 13:46:31 CST 2026] === 完成 ===
+SEND_OK: om_x100b528755a6c0a8b4b08bf87d367b2
+=== Sun Apr 12 13:47:09 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:47:09 CST 2026] 开始执行
+[Sun Apr 12 13:47:10 CST 2026] 天气获取成功: 阵雨 16.1°C
+[Sun Apr 12 13:47:12 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:47:19 CST 2026]   [1] 年鉴：4月5日 - CBS新闻
+[Sun Apr 12 13:47:28 CST 2026]   [2] 请把这段英文翻译成中文，直接输出译文，不需要说明：U.S. drawn deeper into war, as Trum
+[Sun Apr 12 13:47:38 CST 2026]   [3] 请把这段英文翻译成中文，直接输出译文，不需要说明：Search underway for woman after hus
+[Sun Apr 12 13:47:49 CST 2026]   [4] 请把这段英文翻译成中文，直接输出译文，不需要说明：Signs of compassion from a deaf fir
+[Sun Apr 12 13:47:58 CST 2026]   [5] 请把这段英文翻译成中文，直接输出译文，不需要说明：Artemis II astronaut has Easter mes
+[Sun Apr 12 13:48:07 CST 2026]   [6] 请把这段英文翻译成中文，直接输出译文，不需要说明：
+[Sun Apr 12 13:48:16 CST 2026]   [7] 请把这段英文翻译成中文，直接输出译文，不需要说明：Decorated F-16 fighter pilot descri
+[Sun Apr 12 13:48:27 CST 2026]   [8] 请把这段英文翻译成中文，直接输出译文，不需要说明：WAS @ MIA on 2026-04-04-French (AI-
+[Sun Apr 12 13:48:34 CST 2026]   [9] 请把这段英文翻译成中文，直接输出译文，不需要说明：14-year-old running for governor of
+[Sun Apr 12 13:48:45 CST 2026]   [10] 请把这段英文翻译成中文，直接输出译文，不需要说明：Employment+%26%238211%3B+Tortious+i
+[Sun Apr 12 13:48:47 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:48:48 CST 2026] 发送成功: om_x100b52876acc44a0b30d4d9a3c967a9
+[Sun Apr 12 13:48:48 CST 2026] === 完成 ===
+SEND_OK: om_x100b52876acc44a0b30d4d9a3c967a9
+=== Sun Apr 12 13:51:05 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:51:05 CST 2026] 开始执行
+[Sun Apr 12 13:51:06 CST 2026] 天气获取成功: 阵雨 16.1°C
+[Sun Apr 12 13:51:07 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:52:07 CST 2026]   失败[1]: The read operation timed out
+[Sun Apr 12 13:52:09 CST 2026]   失败[2]: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[Sun Apr 12 13:52:11 CST 2026]   失败[3]: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[Sun Apr 12 13:52:17 CST 2026]   [4] Signs of compassion from a deaf first-grader's classmates - 
+[Sun Apr 12 13:52:22 CST 2026]   [5] Artemis II astronaut has Easter message to Earth: "You are s
+[Sun Apr 12 13:52:27 CST 2026]   [6] "Schitt's Creek" star Dan Levy on making "Big Mistakes" - CB
+[Sun Apr 12 13:52:32 CST 2026]   [7] Decorated F-16 fighter pilot describes what went into missio
+[Sun Apr 12 13:52:36 CST 2026]   [8] WAS @ MIA on 2026-04-04-French (AI-Generated)- - NBA
+[Sun Apr 12 13:52:42 CST 2026]   [9] 14-year-old running for governor of Vermont - CBS News
+[Sun Apr 12 13:52:48 CST 2026]   [10] Employment+%26%238211%3B+Tortious+interference+claims+agains
+[Sun Apr 12 13:52:51 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:52:51 CST 2026] 发送成功: om_x100b52877df508b8b31922a6471711b
+[Sun Apr 12 13:52:51 CST 2026] === 完成 ===
+SEND_OK: om_x100b52877df508b8b31922a6471711b
+=== Sun Apr 12 13:55:57 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:55:57 CST 2026] 开始执行
+[Sun Apr 12 13:55:58 CST 2026] 天气获取成功: 阵雨 16.1°C
+[Sun Apr 12 13:55:59 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:56:02 CST 2026]   [1] Almanac: April 5 - CBS News
+[Sun Apr 12 13:56:09 CST 2026]   [2] U.S. drawn deeper into war, as Trump calls for Iran to accep
+[Sun Apr 12 13:56:14 CST 2026]   [3] Search underway for woman after husband says she fell overbo
+[Sun Apr 12 13:56:19 CST 2026]   [4] Signs of compassion from a deaf first-grader's classmates - 
+[Sun Apr 12 13:56:24 CST 2026]   [5] Artemis II astronaut has Easter message to Earth: "You are s
+[Sun Apr 12 13:56:29 CST 2026]   [6] "Schitt's Creek" star Dan Levy on making "Big Mistakes" - CB
+[Sun Apr 12 13:56:33 CST 2026]   [7] Decorated F-16 fighter pilot describes what went into missio
+[Sun Apr 12 13:56:37 CST 2026]   [8] WAS @ MIA on 2026-04-04-French (AI-Generated)- - NBA
+[Sun Apr 12 13:56:43 CST 2026]   [9] 14-year-old running for governor of Vermont - CBS News
+[Sun Apr 12 13:56:48 CST 2026]   [10] Employment+%26%238211%3B+Tortious+interference+claims+agains
+[Sun Apr 12 13:56:51 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 13:56:51 CST 2026] 发送成功: om_x100b52870cfac8a8b4c9efd188e2b1f
+[Sun Apr 12 13:56:51 CST 2026] === 完成 ===
+SEND_OK: om_x100b52870cfac8a8b4c9efd188e2b1f
+=== Sun Apr 12 13:58:55 CST 2026 早间简报开始 ===
+[Sun Apr 12 13:58:55 CST 2026] 开始执行
+[Sun Apr 12 13:58:56 CST 2026] 天气获取成功: 阵雨 16.1°C
+[Sun Apr 12 13:58:58 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 13:59:06 CST 2026]   失败[1]: name 'reasoning' is not defined
+[Sun Apr 12 13:59:14 CST 2026]   [2] 美国在战争中越陷越深，特朗普呼吁伊朗接受
+[Sun Apr 12 13:59:25 CST 2026]   失败[3]: name 'reasoning' is not defined
+[Sun Apr 12 13:59:36 CST 2026]   失败[4]: name 'reasoning' is not defined
+[Sun Apr 12 13:59:46 CST 2026]   失败[5]: name 'reasoning' is not defined
+[Sun Apr 12 13:59:57 CST 2026]   失败[6]: name 'reasoning' is not defined
+[Sun Apr 12 14:00:08 CST 2026]   [7] 获得勋章的F-16战斗机飞行员讲述从伊朗营救美军飞行人员的任务细节 - CBS新闻
+[Sun Apr 12 14:00:24 CST 2026]   失败[8]: name 'reasoning' is not defined
+[Sun Apr 12 14:00:34 CST 2026]   失败[9]: name 'reasoning' is not defined
+[Sun Apr 12 14:00:44 CST 2026]   失败[10]: name 'reasoning' is not defined
+[Sun Apr 12 14:00:46 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 14:00:47 CST 2026] 发送成功: om_x100b52871e21613cb2536f8f334c339
+[Sun Apr 12 14:00:47 CST 2026] === 完成 ===
+SEND_OK: om_x100b52871e21613cb2536f8f334c339
+=== Sun Apr 12 14:01:52 CST 2026 早间简报开始 ===
+[Sun Apr 12 14:01:52 CST 2026] 开始执行
+[Sun Apr 12 14:01:52 CST 2026] 天气获取成功: 阴 16.1°C
+[Sun Apr 12 14:01:56 CST 2026] 新闻获取成功(Tavily): 10 条
+[Sun Apr 12 14:02:02 CST 2026]   [1] 年鉴：4月5日 - CBS 新闻
+[Sun Apr 12 14:02:12 CST 2026]   [2] 美国在战争中越陷越深，特朗普呼吁伊朗接受协议 -
+[Sun Apr 12 14:02:24 CST 2026]   [3] 搜索进行中，寻找在巴哈马乘船时落水的女子——据其丈夫称——CBS新闻
+[Sun Apr 12 14:02:36 CST 2026]   [4] 聋一年级学生的同学们的同情迹象 - CBS新闻
+[Sun Apr 12 14:02:47 CST 2026]   [5] Artemis II 宇航员给地球的复活节信息：“在这片空旷之中，你们是特别的”——CBS新闻
+[Sun Apr 12 14:02:59 CST 2026]   [6] 《施特溪》（Schitt's Creek）明星丹·列维谈“大错误” - CBS新闻
+[Sun Apr 12 14:03:10 CST 2026]   [7] 获得勋章的F-16战斗机飞行员描述营救美国空军人员任务的细节 - CBS新闻
+[Sun Apr 12 14:03:20 CST 2026]   [8] 华盛顿奇才对阵迈阿密热火 2026-04-04 法语 (AI生成) - NBA
+[Sun Apr 12 14:03:26 CST 2026]   [9] 14岁少年竞选佛蒙特州州长 - CBS新闻
+[Sun Apr 12 14:03:39 CST 2026]   [10] Employment+%26%238211%3B+Tortious+interference+claims+agains
+[Sun Apr 12 14:03:41 CST 2026] 翻译完成: 10 条
+[Sun Apr 12 14:03:42 CST 2026] 发送成功: om_x100b528715282ca4b3d3a8100f806f8
+[Sun Apr 12 14:03:42 CST 2026] === 完成 ===
+SEND_OK: om_x100b528715282ca4b3d3a8100f806f8
+=== Sun Apr 12 14:09:19 CST 2026 早间简报开始 ===
+[Sun Apr 12 14:09:20 CST 2026] 开始执行
+[Sun Apr 12 14:09:21 CST 2026] 天气获取成功: 阴 16.1°C
+[Sun Apr 12 14:09:21 CST 2026] 发送成功: om_x100b52873fd7f4acb21fd636200d6d6
+[Sun Apr 12 14:09:21 CST 2026] === 完成 ===
+SEND_OK: om_x100b52873fd7f4acb21fd636200d6d6
+=== Mon Apr 13 08:00:01 CST 2026 早间简报开始 ===
+[Mon Apr 13 08:00:01 CST 2026] 开始执行
+[Mon Apr 13 08:00:03 CST 2026] 天气错误: HTTP Error 502: Bad Gateway
+[Mon Apr 13 08:00:04 CST 2026] 发送成功: om_x100b52f76e8864b4b329c8c282c6157
+[Mon Apr 13 08:00:04 CST 2026] === 完成 ===
+SEND_OK: om_x100b52f76e8864b4b329c8c282c6157
+=== Mon Apr 13 09:49:26 CST 2026 早间简报开始 ===
+[Mon Apr 13 09:49:26 CST 2026] 开始执行
+[Mon Apr 13 09:49:26 CST 2026] 天气错误: 'ascii' codec can't encode characters in position 65-67: ordinal not in range(128)
+[Mon Apr 13 09:49:27 CST 2026] 发送成功: om_x100b52f0f4b55498b4c17b278866a08
+[Mon Apr 13 09:49:27 CST 2026] === 完成 ===
+SEND_OK: om_x100b52f0f4b55498b4c17b278866a08
+=== Mon Apr 13 09:49:52 CST 2026 早间简报开始 ===
+[Mon Apr 13 09:49:52 CST 2026] 开始执行
+[Mon Apr 13 09:49:52 CST 2026] 天气错误: 'ascii' codec can't encode characters in position 65-67: ordinal not in range(128)
+[Mon Apr 13 09:49:53 CST 2026] 发送成功: om_x100b52f0f2d998a0b2dfa6e6ca733c9
+[Mon Apr 13 09:49:53 CST 2026] === 完成 ===
+SEND_OK: om_x100b52f0f2d998a0b2dfa6e6ca733c9
+=== Mon Apr 13 09:50:49 CST 2026 早间简报开始 ===
+[Mon Apr 13 09:50:49 CST 2026] 开始执行
+[Mon Apr 13 09:50:49 CST 2026] 上海 adcode: 310000
+[Mon Apr 13 09:50:49 CST 2026] 天气API返回: {"status": "1", "count": "1", "info": "OK", "infocode": "10000", "forecasts": [{"city": "\u4e0a\u6d77\u5e02", "adcode": "310000", "province": "\u4e0a\u6d77", "reporttime": "2026-04-13 09:33:22", "cast
+[Mon Apr 13 09:50:51 CST 2026] 发送成功: om_x100b52f0f1750ca8b36e2ea5554011a
+[Mon Apr 13 09:50:51 CST 2026] === 完成 ===
+SEND_OK: om_x100b52f0f1750ca8b36e2ea5554011a
+=== Mon Apr 13 09:51:59 CST 2026 早间简报开始 ===
+[Mon Apr 13 09:51:59 CST 2026] 开始执行
+[Mon Apr 13 09:51:59 CST 2026] 上海 adcode: 310000
+[Mon Apr 13 09:52:00 CST 2026] 实时天气API返回: {"status": "1", "count": "1", "info": "OK", "infocode": "10000", "lives": [{"province": "\u4e0a\u6d77", "city": "\u4e0a\u6d77\u5e02", "adcode": "310000", "weather": "\u9634", "temperature": "15", "win
+[Mon Apr 13 09:52:00 CST 2026] 实时天气获取成功: 阴 15°C
+[Mon Apr 13 09:52:01 CST 2026] 发送成功: om_x100b52f08ad6c48cb288784f06820b7
+[Mon Apr 13 09:52:01 CST 2026] === 完成 ===
+SEND_OK: om_x100b52f08ad6c48cb288784f06820b7
+=== Mon Apr 13 15:02:17 CST 2026 早间简报开始 ===
+[Mon Apr 13 15:02:17 CST 2026] 开始执行
+[Mon Apr 13 15:02:17 CST 2026] 请求错误 /weather?hourlysteps=24: HTTP Error 429: TOO MANY REQUESTS
+[Mon Apr 13 15:02:18 CST 2026] 日出日落错误: HTTP Error 500: Internal Server Error
+[Mon Apr 13 15:02:19 CST 2026] 发送成功: om_x100b52fd017fa904b250bba2b22842f
+[Mon Apr 13 15:02:19 CST 2026] === 完成 ===
+SEND_OK: om_x100b52fd017fa904b250bba2b22842f
+=== Tue Apr 14 08:00:01 CST 2026 早间简报开始 ===
+[Tue Apr 14 08:00:01 CST 2026] 开始执行
+[Tue Apr 14 08:00:02 CST 2026] 发送成功: om_x100b52ec76ec1964b4c3be07995a883
+[Tue Apr 14 08:00:02 CST 2026] === 完成 ===
+SEND_OK: om_x100b52ec76ec1964b4c3be07995a883
+=== Tue Apr 14 20:09:47 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:09:48 CST 2026] 开始执行
+[Tue Apr 14 20:09:48 CST 2026] 发送成功: om_x100b52d6a6041c94b216bf8e280f20c
+[Tue Apr 14 20:09:48 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d6a6041c94b216bf8e280f20c
+=== Tue Apr 14 20:12:05 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:12:05 CST 2026] 开始执行
+[Tue Apr 14 20:12:06 CST 2026] 发送成功: om_x100b52d6bfab9ca8b4a7e6d106c14a1
+[Tue Apr 14 20:12:06 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d6bfab9ca8b4a7e6d106c14a1
+=== Tue Apr 14 20:13:35 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:13:36 CST 2026] 开始执行
+[Tue Apr 14 20:13:36 CST 2026] 发送成功: om_x100b52d6b9c438a8b39a1b7ff9b103c
+[Tue Apr 14 20:13:36 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d6b9c438a8b39a1b7ff9b103c
+=== Tue Apr 14 20:22:55 CST 2026 早间简报开始 ===
+  File "<stdin>", line 132
+    {"tag": "div", "text": {"tag": "lark_md", "content": rain_text if rain_text else "无"}}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+=== Tue Apr 14 20:23:12 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:23:12 CST 2026] 开始执行
+[Tue Apr 14 20:23:13 CST 2026] 发送成功: om_x100b52d755c06ca4b2431e19a889703
+[Tue Apr 14 20:23:13 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d755c06ca4b2431e19a889703
+=== Tue Apr 14 20:26:24 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:26:24 CST 2026] 开始执行
+[Tue Apr 14 20:26:25 CST 2026] 发送成功: om_x100b52d769dc98b4b3532a63e005686
+[Tue Apr 14 20:26:25 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d769dc98b4b3532a63e005686
+=== Tue Apr 14 20:27:57 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:27:57 CST 2026] 开始执行
+[Tue Apr 14 20:27:57 CST 2026] 发送成功: om_x100b52d76216acb0b341e75f29bd832
+[Tue Apr 14 20:27:57 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d76216acb0b341e75f29bd832
+=== Tue Apr 14 20:28:19 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:28:19 CST 2026] 开始执行
+[Tue Apr 14 20:28:20 CST 2026] 发送成功: om_x100b52d760890530b20a121a44fa17f
+[Tue Apr 14 20:28:20 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d760890530b20a121a44fa17f
+=== Tue Apr 14 20:42:09 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:42:09 CST 2026] 开始执行
+[Tue Apr 14 20:42:10 CST 2026] 发送成功: om_x100b52d72ce834a0b2c541582abc6a3
+[Tue Apr 14 20:42:10 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d72ce834a0b2c541582abc6a3
+=== Tue Apr 14 20:48:23 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:48:23 CST 2026] 开始执行
+[Tue Apr 14 20:48:24 CST 2026] 发送成功: om_x100b52d737b0d8a8b1099ba588131d4
+[Tue Apr 14 20:48:24 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d737b0d8a8b1099ba588131d4
+=== Tue Apr 14 20:52:05 CST 2026 早间简报开始 ===
+  File "<stdin>", line 71
+    header = "| 时间 | 概率 | 时间 | 概率 |
+             ^
+SyntaxError: unterminated string literal (detected at line 71)
+=== Tue Apr 14 20:52:38 CST 2026 早间简报开始 ===
+  File "<stdin>", line 71
+    header = "| 时间 | 概率 | 时间 | 概率 |
+             ^
+SyntaxError: unterminated string literal (detected at line 71)
+=== Tue Apr 14 20:52:56 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:52:56 CST 2026] 开始执行
+[Tue Apr 14 20:52:56 CST 2026] Feishu错误: name 'rain_text' is not defined
+[Tue Apr 14 20:52:56 CST 2026] === 完成 ===
+ERROR: name 'rain_text' is not defined
+=== Tue Apr 14 20:53:24 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:53:24 CST 2026] 开始执行
+[Tue Apr 14 20:53:25 CST 2026] 发送成功: om_x100b52d7c29a34b0b31b6bde3903dd4
+[Tue Apr 14 20:53:25 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d7c29a34b0b31b6bde3903dd4
+=== Tue Apr 14 20:54:39 CST 2026 早间简报开始 ===
+[Tue Apr 14 20:54:39 CST 2026] 开始执行
+[Tue Apr 14 20:54:40 CST 2026] 发送成功: om_x100b52d7de3660b0b30b5a10b8652f2
+[Tue Apr 14 20:54:40 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d7de3660b0b30b5a10b8652f2
+=== Tue Apr 14 21:07:55 CST 2026 早间简报开始 ===
+[Tue Apr 14 21:07:55 CST 2026] 开始执行
+[Tue Apr 14 21:07:56 CST 2026] 发送成功: om_x100b52d78c0874b4b36e790b24de14c
+[Tue Apr 14 21:07:56 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d78c0874b4b36e790b24de14c
+=== Tue Apr 14 21:17:01 CST 2026 早间简报开始 ===
+[Tue Apr 14 21:17:01 CST 2026] 开始执行
+[Tue Apr 14 21:17:02 CST 2026] 发送成功: om_x100b52d7aa1070b4b3bc3eed28128e9
+[Tue Apr 14 21:17:02 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d7aa1070b4b3bc3eed28128e9
+=== Tue Apr 14 21:19:02 CST 2026 早间简报开始 ===
+[Tue Apr 14 21:19:02 CST 2026] 开始执行
+[Tue Apr 14 21:19:03 CST 2026] 发送成功: om_x100b52d7a2a16d34b4b9dee84d94eb8
+[Tue Apr 14 21:19:03 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d7a2a16d34b4b9dee84d94eb8
+=== Tue Apr 14 21:23:54 CST 2026 早间简报开始 ===
+[Tue Apr 14 21:23:54 CST 2026] 开始执行
+[Tue Apr 14 21:23:55 CST 2026] 发送成功: om_x100b52d7b07a04acb356947ea33d6d8
+[Tue Apr 14 21:23:55 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d7b07a04acb356947ea33d6d8
+=== Tue Apr 14 21:25:47 CST 2026 早间简报开始 ===
+[Tue Apr 14 21:25:47 CST 2026] 开始执行
+[Tue Apr 14 21:25:48 CST 2026] 发送成功: om_x100b52d04b0d8d08b35d8b2a77748a4
+[Tue Apr 14 21:25:48 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d04b0d8d08b35d8b2a77748a4
+=== Tue Apr 14 21:52:22 CST 2026 早间简报开始 ===
+[Tue Apr 14 21:52:22 CST 2026] 开始执行
+[Tue Apr 14 21:52:22 CST 2026] 发送成功: om_x100b52d027a5b118b22c99fb8eea969
+[Tue Apr 14 21:52:22 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d027a5b118b22c99fb8eea969
+=== Tue Apr 14 22:09:44 CST 2026 早间简报开始 ===
+[Tue Apr 14 22:09:44 CST 2026] 开始执行
+[Tue Apr 14 22:09:44 CST 2026] 发送成功: om_x100b52d0e444e4a0b3083ab282f5411
+[Tue Apr 14 22:09:44 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d0e444e4a0b3083ab282f5411
+=== Tue Apr 14 22:21:47 CST 2026 早间简报开始 ===
+[Tue Apr 14 22:21:47 CST 2026] 开始执行
+[Tue Apr 14 22:21:48 CST 2026] 发送成功: om_x100b52d0990e10b4b392077306c7a4e
+[Tue Apr 14 22:21:48 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d0990e10b4b392077306c7a4e
+=== Tue Apr 14 23:07:09 CST 2026 早间简报开始 ===
+[Tue Apr 14 23:07:09 CST 2026] 开始执行
+[Tue Apr 14 23:07:10 CST 2026] 发送成功: om_x100b52d1cf1104b0b264c285b7eedc7
+[Tue Apr 14 23:07:10 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d1cf1104b0b264c285b7eedc7
+=== Tue Apr 14 23:13:39 CST 2026 早间简报开始 ===
+[Tue Apr 14 23:13:39 CST 2026] 开始执行
+[Tue Apr 14 23:13:40 CST 2026] 发送成功: om_x100b52d1d489a0b0b361921663329be
+[Tue Apr 14 23:13:40 CST 2026] === 完成 ===
+SEND_OK: om_x100b52d1d489a0b0b361921663329be
+=== Tue Apr 14 23:44:23 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b52d2434ad0a8b3fe59555e18b80
+=== 完成 ===
+=== Tue Apr 14 23:46:47 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b52d2584484a8b21b6d989eb31a9
+=== 完成 ===
+=== Tue Apr 14 23:48:49 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b52d250d0b8a4b29e9d7a094b9ea
+=== 完成 ===
+=== Wed Apr 15 00:07:17 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b52d22daab8b8b3f727632b9dc6f
+=== 完成 ===
+=== Wed Apr 15 08:00:02 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b52d91ef7eca8b39fc10c1999dec
+=== 完成 ===
+=== Thu Apr 16 08:00:01 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b513626eed0a0b3f3ee7f53686c0
+=== 完成 ===
+=== Fri Apr 17 08:00:01 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b5123cee1b4a8b3457dade14afad
+=== 完成 ===
+=== Fri Apr 17 16:16:36 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b512a88946914b285f100b94e722
+=== 完成 ===
+=== Mon Apr 20 11:16:27 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b516de60d70ccb365daea6048b58
+=== 完成 ===
+=== Mon Apr 20 11:16:33 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b516de7e994b0b4bbb78253caccf
+=== 完成 ===
+++ date
++ echo '=== Mon Apr 20 11:16:38 CST 2026 早间简报开始 ==='
+=== Mon Apr 20 11:16:38 CST 2026 早间简报开始 ===
++ python3
+SEND_OK: om_x100b516de7b83118b36b2da757a21d5
++ echo '=== 完成 ==='
+=== 完成 ===
+=== Mon Apr 20 20:19:47 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b5155d08a70a8b3774a02837c2c6
+=== 完成 ===
+=== Tue Apr 21 08:00:03 CST 2026 早间简报开始 ===
+Traceback (most recent call last):
+  File "<stdin>", line 20, in <module>
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== 完成 ===
+=== Tue Apr 21 11:22:23 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b515a99cec490b2dc21f793b0df6
+SEND_OK: om_x100b515a99d180a4b21469d0486e37e
+=== 完成 ===
+=== Tue Apr 21 11:24:01 CST 2026 早间简报开始 ===
+Traceback (most recent call last):
+  File "<stdin>", line 127, in <module>
+  File "<stdin>", line 121, in send_card
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+=== Wed Apr 22 08:00:01 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51b4b6eff0a8b3f7ebf3c1e8520
+Traceback (most recent call last):
+  File "<stdin>", line 130, in <module>
+  File "<stdin>", line 47, in fetch_weather
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== Thu Apr 23 08:00:01 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51a25ee0b8a0b3c8044cf7d2083
+Traceback (most recent call last):
+  File "<stdin>", line 130, in <module>
+  File "<stdin>", line 47, in fetch_weather
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== Thu Apr 23 14:49:01 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51a8432830acb4c8e49b68b6f96
+Traceback (most recent call last):
+  File "<stdin>", line 48, in fetch_weather
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 178, in <module>
+  File "<stdin>", line 53, in fetch_weather
+  File "<stdin>", line 58, in qweather_fetch
+NameError: name 'QWEATHER_KEY' is not defined
+=== Thu Apr 23 14:49:50 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51a85e3f74b8b24a5b2a644cf2c
+Traceback (most recent call last):
+  File "<stdin>", line 49, in fetch_weather
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 179, in <module>
+  File "<stdin>", line 54, in fetch_weather
+  File "<stdin>", line 60, in qweather_fetch
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: 
+=== Thu Apr 23 14:52:44 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51a8550150b8b2d9df89d9337ce
+SEND_OK: om_x100b51a8528334acb3c6c13f8add7c5
+=== 完成 ===
+=== Fri Apr 24 08:00:03 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b519f667d38a0b4a9bf37f501155
+SEND_OK: om_x100b519f667650a8b3cf0b50d606c34
+=== 完成 ===
+=== Mon Apr 27 12:39:18 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51dac9b5c0a8b2b9c3aeddd5b64
+SEND_OK: om_x100b51dac908a0a8b292628d7e2d814
+=== 完成 ===
+=== Mon Apr 27 16:12:28 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51c5e81b7494b3b3202c0257d0f
+=== 完成 ===
+=== Tue Apr 28 08:00:03 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b51cbc701f4a0b261f34a6f28596
+=== 完成 ===
+=== Wed Apr 29 08:00:04 CST 2026 早间简报开始 ===
+SEND_OK: om_x100b5020efcdecacb2193a9bec7f6a7
+=== 完成 ===

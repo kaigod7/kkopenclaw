@@ -1,0 +1,47 @@
+=== Tue Apr 21 08:00:03 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0
+=== 完成 ===
+=== Tue Apr 21 11:35:03 CST 2026 KK2早间简报开始 ===
+Traceback (most recent call last):
+  File "<stdin>", line 107, in <module>
+  File "<stdin>", line 36, in fetch_weather
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== 完成 ===
+=== Wed Apr 22 08:00:01 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0 om_x100b51b4b6001cb8b24bd10385d451f
+SEND_OK: 0 om_x100b51b4b61b10a4b27540fb14dc36e
+=== 完成 ===
+=== Wed Apr 22 08:30:51 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0 om_x100b51b522dfb0a0b3537acfbcd2135
+SEND_OK: 0 om_x100b51b522d7b930b21d39fc4c1b343
+=== 完成 ===
+=== Thu Apr 23 08:00:01 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0 om_x100b51a25e4decacb219a222f224a84
+=== 完成 ===
+=== Fri Apr 24 08:00:03 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0 om_x100b519f66892888b4a6dab96e283e8
+=== 完成 ===
+=== Mon Apr 27 12:14:35 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0 om_x100b51da640084a4b22832390e88a82
+=== 完成 ===
+=== Tue Apr 28 08:00:03 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0 om_x100b51cbc6f368a8b4b97c46b5a7b18
+=== 完成 ===
+=== Wed Apr 29 08:00:04 CST 2026 KK2早间简报开始 ===
+SEND_OK: 0 om_x100b5020ee9404a4b3f2f02d9dbb84a
+=== 完成 ===

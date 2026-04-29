@@ -1,0 +1,67 @@
+=== Tue Apr 21 11:46:21 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 13:46
+SEND_OK: 0 om_x100b515b7e27a0acb320d1f5631f254
+=== 完成 ===
+=== Tue Apr 21 12:12:16 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 14:12
+SEND_OK: 0 om_x100b515bdcd9fd14b25836b789e04b6
+=== 完成 ===
+=== Tue Apr 21 12:25:11 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 14:25
+SEND_OK: 0 om_x100b515b8cb30508b3c96a4630054ae
+=== 完成 ===
+=== Tue Apr 21 13:20:58 CST 2026 KK2悉尼早安 ===
+  File "<stdin>", line 74
+    astro = d["result"]["daily"]["astro"]
+IndentationError: unexpected indent
+=== 完成 ===
+=== Tue Apr 21 13:21:29 CST 2026 KK2悉尼早安 ===
+  File "<stdin>", line 74
+    astro = d["result"]["daily"]["astro"]
+IndentationError: unexpected indent
+=== 完成 ===
+=== Tue Apr 21 13:23:47 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 15:23
+SEND_OK: 0 om_x100b5144d0855480b2662244892e90e
+=== 完成 ===
+=== Tue Apr 21 13:42:13 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 15:42
+Sydney AQI (Open-Meteo): 33
+SEND_OK: 0 om_x100b5144ad4dd4a8b3d7051c199a510
+=== 完成 ===
+=== Tue Apr 21 13:57:55 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 15:57
+Traceback (most recent call last):
+  File "<stdin>", line 135, in <module>
+TypeError: cannot unpack non-iterable int object
+=== 完成 ===
+=== Tue Apr 21 14:01:26 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 16:01
+Sydney AQI (Open-Meteo): 33
+SEND_OK: 0 om_x100b5145654c10bcb24834a7a40a998
+=== 完成 ===
+=== Wed Apr 22 06:00:01 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-22 08:00
+Sydney AQI (Open-Meteo): 26
+SEND_OK: 0 om_x100b514b78f130a0b4b067580616d57
+=== 完成 ===
+=== Thu Apr 23 06:00:03 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-23 08:00
+Sydney AQI (Open-Meteo): 25
+SEND_OK: 0 om_x100b51a000abeca0b2d1638698bff44
+=== 完成 ===
+=== Fri Apr 24 06:00:01 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-24 08:00
+Sydney AQI (Open-Meteo): 35
+SEND_OK: 0 om_x100b519d28f590a4b10f56cca803ac5
+=== 完成 ===
+=== Tue Apr 28 06:00:01 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-28 08:00
+Sydney AQI (Open-Meteo): 62
+SEND_OK: 0 om_x100b51c988ff20a0b29237c7ec73ab9
+=== 完成 ===
+=== Wed Apr 29 06:00:03 CST 2026 KK2悉尼早安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-29 08:00
+Sydney AQI (Open-Meteo): 65
+SEND_OK: 0 om_x100b50269090c074b4b241447348076
+=== 完成 ===

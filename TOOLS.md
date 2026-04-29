@@ -27,13 +27,13 @@ Things like:
 
 ### TTS（飞书语音）
 
-- 当前默认：柔软女孩（Chinese (Mandarin)_Soft_Girl，MiniMax speech-2.8-hd）
+- 当前默认：柔软女孩（moss_audio_aaa1346a-7ce7-11f0-8e61-2e6e3c7ee85d，MiniMax speech-2.8-hd）
 - 音色表：~/.openclaw/workspace/voice_favorites.json
 - 快捷切换：python3 ~/.openclaw/workspace/scripts/voice_switch.py <编号或名字> <文本>
 
 ### 飞书语音发送
 
-- **音色**：MiniMax「柔软女孩」(Chinese (Mandarin)_Soft_Girl)
+- **音色**：MiniMax「柔软女孩」(moss_audio_aaa1346a-7ce7-11f0-8e61-2e6e3c7ee85d)
 - **voice_id**：female-shaonv（需嵌套在 voice_setting 对象里）
 - **API Key**：`sk-cp-bPFNVq_Y_-aLXt5y8eC-NsH3jYU7zlnVmLLg497Fp-vdGt44YM1ejvr4d8VqFvRIcQPis3X7HrFkKFckZKOjhiyeZxD2AHGDXFTNjZ2OZ3Sq_pWOWe31Yb8`
 - **API 端点**：`https://api.minimaxi.com/v1/t2a_v2`

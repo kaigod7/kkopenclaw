@@ -1,0 +1,59 @@
+=== Tue Apr 21 12:12:28 CST 2026 KK2悉尼午间 ===
+Traceback (most recent call last):
+  File "<stdin>", line 26, in <module>
+NameError: name 'CST' is not defined
+=== 完成 ===
+=== Tue Apr 21 12:13:22 CST 2026 KK2悉尼午间 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 14:13
+SEND_OK: 0 om_x100b515bd8fa54acb4ae8426f7f6fd5
+=== 完成 ===
+=== Tue Apr 21 16:47:13 CST 2026 KK2悉尼午安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-21 18:47
+Sydney AQI (Open-Meteo): 32
+SEND_OK: 0 om_x100b5147d7fc8d64b35c9bdaa0b29d7
+=== 完成 ===
+=== Wed Apr 22 10:00:02 CST 2026 KK2悉尼午安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-22 12:00
+Sydney AQI (Open-Meteo): 26
+SEND_OK: 0 om_x100b51b6f49a1964b398342b3c2237b
+=== 完成 ===
+=== Thu Apr 23 10:00:04 CST 2026 KK2悉尼午安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-23 12:00
+Sydney AQI (Open-Meteo): 28
+SEND_OK: 0 om_x100b51a39cb2d0e8b2a5af63a8fff6e
+=== 完成 ===
+=== Fri Apr 24 10:00:03 CST 2026 KK2悉尼午安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-24 12:00
+Sydney AQI (Open-Meteo): 40
+SEND_OK: 0 om_x100b5198a4033cb8b39b46ab1b94053
+=== 完成 ===
+=== Mon Apr 27 10:00:05 CST 2026 KK2悉尼午安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-27 12:00
+Sydney AQI (Open-Meteo): 52
+Traceback (most recent call last):
+  File "<stdin>", line 144, in <module>
+  File "<stdin>", line 136, in send_card
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+=== 完成 ===
+=== Tue Apr 28 10:00:01 CST 2026 KK2悉尼午安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-28 12:00
+Sydney AQI (Open-Meteo): 74
+SEND_OK: 0 om_x100b50350484c0b0b32557505d7989b
+=== 完成 ===
+=== Wed Apr 29 10:00:01 CST 2026 KK2悉尼午安 ===
+Sydney DST: AEST (UTC+10), Sydney时间: 2026-04-29 12:00
+Sydney AQI (Open-Meteo): 62
+SEND_OK: 0 om_x100b50222c89e080b4aace93da1d7b8
+=== 完成 ===

@@ -1,11 +1,30 @@
 # MEMORY.md - Long-Term Memory
 
+## 音乐生成 API（MiniMax music-2.6）
+
+**重要发现（2026-04-20）：**
+- `music-2.6` 必须带 `lyrics` 参数才能调用成功（API 返回 `lyrics is required`）
+- OpenClaw 内置 `music_generate` 工具调用时未传 `lyrics`，导致一直失败
+- **正确调用方式**：直接用 curl 调 MiniMax API，带 `lyrics` 参数
+- 端点：`POST https://api.minimaxi.com/v1/music_generation`
+- 模型：`music-2.6`
+- 返回格式：`{"data":{"audio":"<hex>"}}`，需用 `bytes.fromhex()` 解码
+
+**正确请求格式：**
+```python
+data = {
+    "model": "music-2.6",
+    "prompt": "描述",
+    "lyrics": "[verse]\n歌词内容...",
+    "duration": 240
+}
+```
+
 ## TTS 语音（MiniMax）
 
 **MiniMax TTS 返回字段：** `result["data"]["audio"]` 不是 `audio_data`！
 
 **默认音色：** MiniMax `Chinese (Mandarin)_Soft_Girl`（音色表1号「柔软女孩」）
-**音色表在** `~/.openclaw/workspace/voice_favorites.json`
 
 ### 飞书语音气泡发送方法（重要！必须用这个！）
 
@@ -39,10 +58,21 @@
 
 ## 关于老K
 - **称呼**：老K
-- **每日定时任务**：
-  - **08:00**：详细天气预报（空气质量、降雨概率/降雨量）+ 全球 Top 5 新闻
-  - **17:00**：全球 Top 10 热门头条（与早上内容不同）
-- 这些任务记录在 `HEARTBEAT.md`
+- **每日定时任务**（记录在 `HEARTBEAT.md`）：
+  - **08:00** 上海天气卡片（蓝）+ 悉尼天气卡片（蓝）
+  - **12:00** 上海天气卡片（黄）+ 悉尼天气卡片（黄）
+  - **16:00** 上海天气卡片（橙）+ 悉尼天气卡片（橙）
+  - **20:00** 上海天气卡片（紫）+ 悉尼天气卡片（紫）
+- 悉尼播报按悉尼本地时间触发（AEST UTC+10 / AEDT UTC+11），上海比悉尼快 2h（冬令时）/ 3h（夏令时）
+
+## ⛈️ 天气数据降级经验（2026-04-27）
+
+**核心教訓**：天氣 API 多級降級不能只保證「能拿到數據」，還要保證每級回傳的數據**結構和格式一致**。否則卡片端（build_card/build_evening_card）會因為字段類型/範圍不同而解析失敗。
+
+**解決方案**：
+- 寫了 `scripts/weather_lib.py` 統一處理天氣獲取，三級降級（彩雲→QWeather→Open-Meteo）
+- 每級 API 返回的數據都在 lib 內轉換成標準格式，卡片構建邏輯不關心數據源
+- AQI 也獨立從 Open-Meteo 補上（QWeather 免費版無 AQI）
 
 ## 备份方式（永久记住）
 
@@ -56,7 +86,26 @@
   - `com.openclaw.backup-github` → 每天 16:00，本地 + GitHub 推送
 - **GitHub PAT**： stored in TOOLS.md（不在 MEMORY.md 明文存储）
 
-## GitHub API 同步方法（重要！）
+## 天气数据源（彩云天气 v2.6）
+
+**天气来源**：彩云天气 v2.6 API（稳定，包含空气质量）
+**API Token**：`z7AhM2I98ZFxUt2c`
+**数据**：实时天气 + 空气质量(AQI/PM2.5/PM10) + 逐小时降雨概率
+**上海坐标**：121.47, 31.23 | **悉尼坐标**：151.2093, -33.8688
+**备用降级**：和风 QWeather → Open-Meteo
+
+数据获取统一由 `scripts/weather_lib.py` 处理（三级降级，输出标准格式）
+
+**脚本位置**：
+- `scripts/kk2/morning_briefing.sh`（上海 08:00）
+- `scripts/kk2/noon_briefing.sh`（上海 12:00）
+- `scripts/kk2/afternoon_briefing.sh`（上海 16:00）
+- `scripts/kk2/evening_news.sh`（上海 20:00）
+- `scripts/kk2/sydney_morning.sh` / `sydney_noon.sh` / `sydney_afternoon.sh` / `sydney_evening.sh`（按悉尼当地时间）
+
+注意：彩云天气对悉尼不提供 AQI，悉尼空气质量用 Open-Meteo 补充。
+
+
 
 **不要用 `git push`**——会被网络阻塞。
 
@@ -94,6 +143,14 @@ curl -s -o /dev/null -w "%{http_code}" -X PUT \
 
 **已更新的脚本**：water_reminder.sh、water_reminder_ontime.sh（均已切换为新key + speech-2.8-hd）
 
+### Tavily 新闻搜索
+
+**两个独立账号，各1000免费credits/月：**
+- **旧 key（GitHub 账号）**：`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` — 优先使用
+- **新 key（Google 账号）**：`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` — 备用
+
+**脚本 fallback 逻辑**：优先用旧 key，失败后自动切换新 key。
+
 ---
 
 ## PS全自动修图流程（重要！）
@@ -120,3 +177,44 @@ doc.close(SaveOptions.DONOTSAVECHANGES);
 ```
 
 **不要用 Python/PIL/其他工具代替 Photoshop**——必须用 Photoshop 本身
+
+
+## 语言偏好
+- **定时发送的天气播报（08:00/12:00/16:00/20:00）必须用中文**
+- **时间格式：全部用 24 小时制**（如 08:00、14:30、23:45），不用 AM/PM
+
+## 飞书群聊回复规则（永久记住）
+- **群聊核心规则**：不 @ 我，我不读取、不分析、不回复。被 @ 才响应。
+- **图片同理**：没 @ 不看图，等 @ 了再看图回复。
+- **其他人消息**：不读、不分析、不回复，跟我无关。
+- 这条规则已同时写入 AGENTS.md，两份永久生效。
+
+## 飞书 Bot 凭证（2026-04-29 更新）
+
+| Bot | App ID | App Secret | Bot open_id |
+|-----|--------|------------|-------------|
+| KK龙虾1号（OpenClaw KK1） | `cli_a9458c4ee4f99bc0` | `YDR6M7PifC1w1eW47bt7sdUdBCWxEBXE` | `ou_c3399de7218a32f213b200fda6675f79` |
+| 红袍大将军（OpenClaw KK2） | `cli_a96f0a89bf795bb5` | `0qZOvpMy676geoq5w2h6neZgLk2Jhy04` | `ou_5e9fcfd9a3512896146c74266688a545` |
+| KK爱马仕1号（Hermes） | `cli_a95590b738781bd3` | `VHtAIix2UUJ4xDFD5nEWIdBGbKJ3yd6S` | `ou_cbf0f609ad717b11fd951a1245f0f41a` |
+
+## OpenClaw ↔ Hermes 联动（传声筒模式）
+
+**目标**：在群里 Hermes @ 我（@KK龙虾1号）时，OpenClaw 能收到并回复；我 @ Hermes（@KK爱马仕1号）时，Hermes 能收到并回复。
+
+**触发词**：@对方机器人名字（KK龙虾1号 ↔ KK爱马仕1号）
+
+**Relay 脚本**：`~/.openclaw/workspace/scripts/feishu_relay.py`
+- 监听 Hermes app 的群消息 API
+- 检测到 @KK龙虾1号 → 转发给 OpenClaw 处理
+- OpenClaw 回复 → 通过 Hermes API 发回群
+
+**状态**：脚本已就绪，Gateway token 未配置（待解决）
+
+## 新增 Skill（2026-04-29）
+
+**neat-freak（洁癖）** — 来自 [khazix-skills](https://github.com/KKKKhazix/khazix-skills)
+- 安装位置：`~/.openclaw/skills/neat-freak/`
+- 触发词：`整理一下`、`同步一下`、`/neat`
+- 功能：会话结束后自动对齐项目文档、AGENTS.md、记忆系统，防止「脑腐化」
+
+

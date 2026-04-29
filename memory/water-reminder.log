@@ -1,0 +1,229 @@
+[Thu Apr  9 14:39:37 CST 2026] TTS生成失败: ERR: no audio_data
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_ERR: no opus file
+TTS_OK
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7fd346808f80] video:0KiB audio:24KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.881383%
+size=      25KiB time=00:00:01.35 bitrate= 151.3kbits/s speed=73.5x elapsed=0:00:00.01    
+TTS_OK
+[out#0/opus @ 0x7fa3750124c0] video:0KiB audio:25KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.496400%
+size=      27KiB time=00:00:01.40 bitrate= 156.8kbits/s speed=72.3x elapsed=0:00:00.01    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7f8c0c808f80] video:0KiB audio:24KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.797926%
+size=      25KiB time=00:00:01.35 bitrate= 153.2kbits/s speed=70.9x elapsed=0:00:00.01    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7f8115008f80] video:0KiB audio:24KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.789879%
+size=      25KiB time=00:00:01.35 bitrate= 153.8kbits/s speed=70.2x elapsed=0:00:00.01    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7fed53809400] video:0KiB audio:25KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.538237%
+size=      27KiB time=00:00:01.48 bitrate= 147.6kbits/s speed=73.9x elapsed=0:00:00.02    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7fe9d1008f80] video:0KiB audio:24KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.718287%
+size=      26KiB time=00:00:01.35 bitrate= 155.6kbits/s speed=71.9x elapsed=0:00:00.01    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7ff07c8094c0] video:0KiB audio:23KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.931075%
+size=      25KiB time=00:00:01.31 bitrate= 155.2kbits/s speed=73.5x elapsed=0:00:00.01    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7f845c809400] video:0KiB audio:22KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 6.398190%
+size=      23KiB time=00:00:01.23 bitrate= 152.8kbits/s speed=71.9x elapsed=0:00:00.01    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7fc81e0094c0] video:0KiB audio:21KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 6.607043%
+size=      22KiB time=00:00:01.18 bitrate= 153.8kbits/s speed=70.9x elapsed=0:00:00.01    
+SEND_OK
+TTS_OK
+[out#0/opus @ 0x7f88c1808f80] video:0KiB audio:24KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 5.831701%
+size=      25KiB time=00:00:01.35 bitrate= 152.7kbits/s speed=72.2x elapsed=0:00:00.01    
+SEND_OK
+SEND_OK: om_x100b524370c448a8b324cfeee128695
+SEND_OK: om_x100b52430f3a24a0b4aeec248b64abc
+SEND_OK: om_x100b52430b2be0a8b2de163bc1dd78e
+SEND_OK: om_x100b5243071e4d7cb320bf8a989f849
+SEND_OK: om_x100b5243030c8090b395812ae00c42b
+SEND_OK: om_x100b5243977bc490b100fc603b8d822
+SEND_OK: om_x100b524c04a2a894b26f11d00476aab
+SEND_OK: om_x100b524cf5e41ca0b3086c3635f8403
+SEND_OK: om_x100b524d652f80b4b3f5d87cbba957f
+SEND_OK: om_x100b524dd257c4b8b32b1cb8da42084

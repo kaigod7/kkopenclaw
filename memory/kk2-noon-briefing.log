@@ -1,0 +1,37 @@
+=== Tue Apr 21 12:00:03 CST 2026 KK2午间简报开始 ===
+Traceback (most recent call last):
+  File "<stdin>", line 106, in <module>
+  File "<stdin>", line 36, in fetch_weather
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== 完成 ===
+=== Wed Apr 22 12:00:01 CST 2026 KK2午间简报开始 ===
+SEND_OK: 0 om_x100b51b032007880b25c88403abf62a
+SEND_OK: 0 om_x100b51b032158470b27e8ab6aec4907
+=== 完成 ===
+=== Thu Apr 23 12:00:02 CST 2026 KK2午间简报开始 ===
+SEND_OK: 0 om_x100b51addae2f4bcb3cd2c97cba5f2d
+=== 完成 ===
+=== Fri Apr 24 12:00:01 CST 2026 KK2午间简报开始 ===
+SEND_OK: 0 om_x100b519ae2ea6c48b26e14f851b55a0
+=== 完成 ===
+=== Mon Apr 27 12:00:01 CST 2026 KK2午间简报开始 ===
+SEND_OK: 0 om_x100b51d9bae7fca4b2c7a085d46d8fb
+=== 完成 ===
+=== Tue Apr 28 12:00:02 CST 2026 KK2午间简报开始 ===
+SEND_OK: 0 om_x100b5037424a90b0b220f351cd8ee7f
+=== 完成 ===
+=== Wed Apr 29 12:00:03 CST 2026 KK2午间简报开始 ===
+SEND_OK: 0 om_x100b502c6a8500bcb4bcd3e5e8dc97f
+=== 完成 ===

@@ -1,0 +1,117 @@
+=== Tue Apr 14 12:00:03 CST 2026 中午天气开始 ===
+[Tue Apr 14 12:00:03 CST 2026] 开始执行
+[Tue Apr 14 12:00:04 CST 2026] 发送成功: om_x100b52eff288d8b8b220e0590cb7b9d
+[Tue Apr 14 12:00:04 CST 2026] === 完成 ===
+SEND_OK: om_x100b52eff288d8b8b220e0590cb7b9d
+=== Wed Apr 15 12:00:02 CST 2026 中午天气开始 ===
+[Wed Apr 15 12:00:02 CST 2026] 开始执行
+[Wed Apr 15 12:00:03 CST 2026] 发送成功: om_x100b52c49af76084b2566ee132d4409
+[Wed Apr 15 12:00:03 CST 2026] === 完成 ===
+SEND_OK: om_x100b52c49af76084b2566ee132d4409
+=== Thu Apr 16 12:00:01 CST 2026 中午天气开始 ===
+[Thu Apr 16 12:00:01 CST 2026] 开始执行
+[Thu Apr 16 12:00:02 CST 2026] 发送成功: om_x100b5131a2e83cacb355a71b7408e0b
+[Thu Apr 16 12:00:02 CST 2026] === 完成 ===
+SEND_OK: om_x100b5131a2e83cacb355a71b7408e0b
+=== Fri Apr 17 12:00:01 CST 2026 中午天气开始 ===
+[Fri Apr 17 12:00:02 CST 2026] 开始执行
+[Fri Apr 17 12:00:03 CST 2026] 发送成功: om_x100b512f4ae1f8acb10cd401b2922ad
+[Fri Apr 17 12:00:03 CST 2026] === 完成 ===
+SEND_OK: om_x100b512f4ae1f8acb10cd401b2922ad
+=== Mon Apr 20 11:17:19 CST 2026 中午天气开始 ===
+[Mon Apr 20 11:17:19 CST 2026] 开始执行
+[Mon Apr 20 11:17:20 CST 2026] 发送成功: om_x100b516de53084b8b4b7c565434adcf
+[Mon Apr 20 11:17:20 CST 2026] === 完成 ===
+SEND_OK: om_x100b516de53084b8b4b7c565434adcf
+=== Mon Apr 20 12:00:03 CST 2026 中午天气开始 ===
+[Mon Apr 20 12:00:03 CST 2026] 开始执行
+[Mon Apr 20 12:00:04 CST 2026] 发送成功: om_x100b516e028980a4b3f393d8efd246a
+[Mon Apr 20 12:00:04 CST 2026] === 完成 ===
+SEND_OK: om_x100b516e028980a4b3f393d8efd246a
+=== Tue Apr 21 12:00:03 CST 2026 中午天气开始 ===
+[Tue Apr 21 12:00:04 CST 2026] 开始执行
+[Tue Apr 21 12:00:05 CST 2026] 发送成功: om_x100b515b2a834c84b27446aa73e7ebc
+SEND_OK: om_x100b515b2a834c84b27446aa73e7ebc
+Traceback (most recent call last):
+  File "<stdin>", line 150, in <module>
+  File "<stdin>", line 44, in fetch_weather
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== Wed Apr 22 12:00:01 CST 2026 中午天气开始 ===
+[Wed Apr 22 12:00:01 CST 2026] 开始执行
+[Wed Apr 22 12:00:02 CST 2026] 发送成功: om_x100b51b032e950a4b254a46a267393d
+SEND_OK: om_x100b51b032e950a4b254a46a267393d
+Traceback (most recent call last):
+  File "<stdin>", line 150, in <module>
+  File "<stdin>", line 44, in fetch_weather
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== Thu Apr 23 12:00:02 CST 2026 中午天气开始 ===
+[Thu Apr 23 12:00:02 CST 2026] 开始执行
+Traceback (most recent call last):
+  File "<stdin>", line 146, in <module>
+  File "<stdin>", line 44, in fetch_weather
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: TOO MANY REQUESTS
+=== Fri Apr 24 12:00:01 CST 2026 中午天气开始 ===
+[Fri Apr 24 12:00:01 CST 2026] 开始执行
+[Fri Apr 24 12:00:23 CST 2026] 发送成功: om_x100b519ae3b4ed10b2dd4410fe25b2a
+[Fri Apr 24 12:00:24 CST 2026] 发送成功: om_x100b519ae34ba104b2d077138bf4acf
+[Fri Apr 24 12:00:24 CST 2026] === 完成 ===
+SEND_OK: om_x100b519ae3b4ed10b2dd4410fe25b2a
+SEND_OK: om_x100b519ae34ba104b2d077138bf4acf
+=== Mon Apr 27 12:00:01 CST 2026 中午天气开始 ===
+[Mon Apr 27 12:00:01 CST 2026] 开始执行
+[Mon Apr 27 12:00:15 CST 2026] 发送成功: om_x100b51d9ba22b918b36dd4b86b74ccf
+[Mon Apr 27 12:00:16 CST 2026] 发送成功: om_x100b51d9ba31ec94b299d6021020469
+[Mon Apr 27 12:00:16 CST 2026] === 完成 ===
+SEND_OK: om_x100b51d9ba22b918b36dd4b86b74ccf
+SEND_OK: om_x100b51d9ba31ec94b299d6021020469
+=== Mon Apr 27 16:12:41 CST 2026 中午天气开始 ===
+[Mon Apr 27 16:12:41 CST 2026] 开始执行
+[Mon Apr 27 16:12:42 CST 2026] 发送成功: om_x100b51c5e96de888b3709ec35c6e1e9
+[Mon Apr 27 16:12:42 CST 2026] === 完成 ===
+SEND_OK: om_x100b51c5e96de888b3709ec35c6e1e9
+=== Tue Apr 28 12:00:02 CST 2026 中午天气开始 ===
+[Tue Apr 28 12:00:02 CST 2026] 开始执行
+[Tue Apr 28 12:00:03 CST 2026] 发送成功: om_x100b503742fe0ca0b32a065d90b3197
+[Tue Apr 28 12:00:03 CST 2026] === 完成 ===
+SEND_OK: om_x100b503742fe0ca0b32a065d90b3197
+=== Wed Apr 29 12:00:03 CST 2026 中午天气开始 ===
+[Wed Apr 29 12:00:03 CST 2026] 开始执行
+[Wed Apr 29 12:00:38 CST 2026] 发送成功: om_x100b502c68a9bca8b278b6753bcba68
+[Wed Apr 29 12:00:38 CST 2026] === 完成 ===
+SEND_OK: om_x100b502c68a9bca8b278b6753bcba68

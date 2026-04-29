@@ -48,3 +48,25 @@
 ---
 
 _最后更新：2026-04-08_
+
+## ⚠️ 彩云天气 dt_key 拼接规范（2026-04-16 教训）
+
+**症状**：3点/4点显示🌧️图标但无概率，其余时间正确
+
+**根因**（两个bug叠加）：
+1. `dt_key` 拼接错误：用 `hh`（"14"）拼接成 `2026-04-16T14`，但彩云 skycon 字典的 key 是 `2026-04-16T14:00`（带完整时间）
+2. `MODERATE_RAIN` / `HEAVY_RAIN` 漏了 emoji 映射
+
+**正确写法**：
+```python
+hhmm = h.get("datetime", "")[11:16]  # "14:00"
+dt_key = h.get("datetime", "")[:10] + "T" + hhmm  # "2026-04-16T14:00"
+sky = hourly_skycon.get(dt_key, "CLOUDY")  # 匹配正确
+```
+
+**Emoji 映射必须包含**：
+```python
+"LIGHT_RAIN":"🌧️","MODERATE_RAIN":"🌧️","HEAVY_RAIN":"🌧️","RAIN":"🌧️"
+```
+
+**涉及脚本**：morning_briefing.sh、noon_briefing.sh、afternoon_briefing.sh
