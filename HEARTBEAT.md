@@ -3,17 +3,21 @@
 ## 每次心跳自动执行
 - 运行 `bash $HOME/.openclaw/workspace/scripts/backup_openclaw.sh` 进行本地备份
 - 无需询问，直接执行
-- **检查OpenClaw版本**：对比npm最新版与当前版本，发现新版本立即通知老K
-  - 记录位置：`~/.openclaw/openclaw.json` 里的 `meta.lastTouchedVersion`
-  - npm查询：**先不走代理直连**，失败再走代理
+- **检查OpenClaw版本**：每次心跳必须执行，发现新版本**必须发送消息通知老K**
+  - 获取版本：先直连 npm，失败走代理，再失败跳过（留待下次心跳重试）
     ```bash
-    # 先直连（秒回）
     latest=$(curl -s "https://registry.npmjs.org/openclaw/latest" | python3 -c "import sys,json; print(json.load(sys.stdin).get('version','failed'))")
-    # 如果失败，再用代理
     if [ "$latest" = "failed" ]; then
       latest=$(curl -s --proxy http://127.0.0.1:7890 "https://registry.npmjs.org/openclaw/latest" | python3 -c "import sys,json; print(json.load(sys.stdin).get('version','failed'))")
     fi
     ```
+  - 如果 `latest` 仍然是 `failed`：**记日志但不通知**，下次心跳重试
+  - 如果 `latest` 比当前版本 `/Users/kk/.openclaw/openclaw.json` 里的 `lastTouchedVersion` 新：
+    1. 发飞书消息通知老K（直接说 "OpenClaw 新版本 xxx 已发布，是否升级？"）
+    2. 更新 `meta.lastTouchedVersion` 为最新版本
+    3. 记录 `meta.updateNotifiedAt` 为当前时间戳
+  - 如果 `latest` 跟 `lastTouchedVersion` 一样或更旧：跳过，不通知
+  - **注意**：已经通知过的版本不重复通知（靠 `updateNotifiedAt` 判断）
 
 ### 📡 定时任务触发检查
 检查触发文件是否存在（由 launchd 在 08:00 写入），如有则执行对应任务：
