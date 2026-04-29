@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+.DS_Store
+.gh-token
+node_modules/
+Claude-code-source-study/
+QMCDecode/
+tmp_edit/
+config/mcporter.json
+voice_favorites.json
