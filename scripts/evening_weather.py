@@ -15,7 +15,7 @@ log("=== 晚间天气开始 ===")
 def to_emoji_time(t):
     """12:00 → 1️⃣2️⃣:0️⃣0️⃣"""
     dmap = {"0":"0️⃣","1":"1️⃣","2":"2️⃣","3":"3️⃣","4":"4️⃣",
-            "5":"5️⃣","6":"6️⃣","7":"7️⃣","8":"8️⃣","9":"9️⃣",":":"："}
+            "5":"5️⃣","6":"6️⃣","7":"7️⃣","8":"8️⃣","9":"9️⃣",":":":"}
     return "".join(dmap.get(c, c) for c in t)
 
 # ── 1. 获取天气数据（彩云天气 v2.6）──
@@ -90,7 +90,7 @@ except Exception as e:
     sys.exit(1)
 
 # ── 2. 构建消息（匹配卡片格式）──
-card_text = f"""**━━━ 📍 {CITY_NAME}当前天气 ━━━**
+card_text = f"""**━━━ 📍 {CITY_NAME}天气 ━━━**
 {weather_text} {temp}°C | 湿度 {humidity_pct}%
 风力 {wind_speed} km/h | 风向 {dirs[int(wind_dir/45)%8] if wind_dir else "?"}
 
@@ -122,13 +122,15 @@ try:
         "config": {"wide_screen_mode": True},
         "header": {"title": {"tag": "plain_text", "content": f"🌙 晚安！ {time.strftime('%Y年%m月%d日')} {CITY_NAME}天气"}, "template": "purple"},
         "elements": [
-            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 📍 {CITY_NAME}当前天气 ━━━**\n{weather_text} {temp}°C | 湿度 {humidity_pct}%\n风力 {wind_speed} km/h | 风向 {dirs[int(wind_dir/45)%8] if wind_dir else '?'}\n"}},
-            {"tag": "hr"},
-            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 💧 未来6小时天气 ━━━**\n{rain_formatted}"}},
-            {"tag": "hr"},
-            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 🌫️ 空气质量 ━━━**\nAQI {aqi_val}（{aqi_desc}）\nPM2.5: {pm25} | PM10: {pm10}"}},
-            {"tag": "hr"},
-            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 🌅 日出日落 ━━━**\n日出 {sunrise} | 日落 {sunset}"}}
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 📍 {CITY_NAME}天气 ━━━**"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"{weather_text} {temp}°C | 湿度 {humidity_pct}%"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"风力 {wind_speed} km/h | 风向 {dirs[int(wind_dir/45)%8] if wind_dir else '?'}"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 🌫️ 空气质量 ━━━**"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"AQI {aqi_val}（{aqi_desc}）  PM2.5: {pm25} | PM10: {pm10}"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 💧 未来6小时天气 ━━━**"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"{rain_formatted}"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 🌅 日出日落 ━━━**"}},
+            {"tag": "div", "text": {"tag": "lark_md", "content": f"日出 {sunrise} | 日落 {sunset}"}}
         ]
     }
 
