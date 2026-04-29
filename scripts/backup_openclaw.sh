@@ -41,13 +41,11 @@ fi
 
 # GitHub 推送（仅 github 模式）
 if [[ "$MODE" == "github" ]]; then
-    export no_proxy='*'
     TOKEN=$(cat "$SRC_DIR/.gh-token" 2>/dev/null | grep -v '^#' | tr -d ' \n')
     if [[ -n "$TOKEN" ]]; then
-        # 设置 remote 并推送
         git remote set-url github "https://${TOKEN}@github.com/kaigod7/kkopenclaw.git"
         echo "📤 推送到 GitHub ..."
-        git push github main --force 2>&1 && echo "✅ GitHub 推送完成" || echo "⚠️ GitHub 推送失败"
+        git -c http.proxy=http://127.0.0.1:7890 -c https.proxy=http://127.0.0.1:7890 push github main --force 2>&1 && echo "✅ GitHub 推送完成" || echo "⚠️ GitHub 推送失败"
         touch "$GITHUB_MARKER"
         echo "📌 GitHub 今日标记已创建"
     else
