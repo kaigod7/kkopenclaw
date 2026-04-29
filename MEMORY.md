@@ -218,3 +218,16 @@ doc.close(SaveOptions.DONOTSAVECHANGES);
 - 功能：会话结束后自动对齐项目文档、AGENTS.md、记忆系统，防止「脑腐化」
 
 
+
+## Promoted From Short-Term Memory (2026-04-30)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-21.md:35:38 -->
+- ```python def is_aedt(dt): # 悉尼夏令时判断 y, m = dt.year, dt.month if m == 10: return dt.day > first_sunday(y, 10) or (dt.day == first_sunday(y, 10) and dt.hour >= 1) [score=0.900 recalls=0 avg=0.620 source=memory/2026-04-21.md:35-38]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-21.md:6:6 -->
+- 老K要求每天4次定时天气播报（08/12/16/20时），同时包含上海和悉尼，且两地都用彩色卡片形式发到群聊 `oc_ad0a00b59da44eb026c86147bbf19884`。 [score=0.849 recalls=0 avg=0.620 source=memory/2026-04-21.md:6-6]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-21.md:10:10 -->
+- **上海播报**（KK2 直发群聊，launchd 上海时间触发）： [score=0.849 recalls=0 avg=0.620 source=memory/2026-04-21.md:10-10]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-21.md:15:15 -->
+- **悉尼播报**（按悉尼当地时间 08/12/16/20，launchd 上海时间触发）： [score=0.849 recalls=0 avg=0.620 source=memory/2026-04-21.md:15-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-21.md:39:41 -->
+- elif m == 4: return dt.day < first_sunday(y, 4) or (dt.day == first_sunday(y, 4) and dt.hour < 2) elif 5 <= m <= 9: return False else: return True [score=0.849 recalls=0 avg=0.620 source=memory/2026-04-21.md:39-41]
