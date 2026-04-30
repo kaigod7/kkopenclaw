@@ -114,10 +114,9 @@ def build_card_data(slot, city_name, weather_data):
         {"tag": "div", "text": {"tag": "lark_md", "content": f"{rain_formatted}"}},
     ]
 
-    # 早晚显示日出日落
-    if slot in ("morning", "evening"):
-        elements.append({"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 🌅 日出日落 ━━━**"}})
-        elements.append({"tag": "div", "text": {"tag": "lark_md", "content": f"日出 {sunrise} | 日落 {sunset}"}})
+    # 日出日落
+    elements.append({"tag": "div", "text": {"tag": "lark_md", "content": f"**━━━ 🌅 日出日落 ━━━**"}})
+    elements.append({"tag": "div", "text": {"tag": "lark_md", "content": f"日出 {sunrise} | 日落 {sunset}"}})
 
     return {
         "config": {"wide_screen_mode": True},
