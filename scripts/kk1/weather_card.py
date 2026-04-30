@@ -14,8 +14,21 @@ WORKSPACE = os.path.expanduser("~/.openclaw/workspace")
 LOG_FILE = os.path.join(WORKSPACE, "memory/kk1-weather.log")
 
 CAIYUN_TOKEN = "z7AhM2I98ZFxUt2c"
-LOC = "121.47,31.23"
-CITY_NAME = "上海"
+
+# ⏰ 武汉临时坐标（4月29日 ~ 5月4日 20:00）
+# 到期后自动切回上海
+from datetime import datetime as _dt
+_now = _dt.now()
+_deadline = _dt(2026, 5, 4, 19, 59)  # 5月4日20:00前用武汉
+if _now < _deadline:
+    LOC = "114.3055,30.5928"
+    CITY_NAME = "武汉"
+    print("📍 使用武汉坐标（临时）")
+else:
+    LOC = "121.47,31.23"
+    CITY_NAME = "上海"
+    print("📍 已切回上海坐标")
+print(f"📅 当前时间：{_now.strftime('%Y-%m-%d %H:%M')}，截止：{_deadline.strftime('%Y-%m-%d %H:%M')}")
 
 SLOT_CFG = {
     "morning":   {"emoji": "🌅", "title": "早安",   "color": "blue"},
@@ -157,7 +170,11 @@ def main():
         log(f"❌ 发送异常：{e}")
         sys.exit(1)
 
-    log(f"=== 完成 ===")
+    log(f"=== 完成 ({CITY_NAME}) ===")
+
+    # 如果到期切回上海，写一条日志提醒
+    if CITY_NAME == "上海" and _now.date() >= _dt(2026, 5, 4).date():
+        log("📌 武汉临时天气已到期，自动切回上海")
 
 if __name__ == "__main__":
     main()
