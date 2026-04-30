@@ -1,6 +1,10 @@
 #!/bin/bash
-# OpenClaw 记忆与学习内容恢复脚本
+# ⚠️  OpenClaw 记忆与文件恢复脚本（谨慎使用！）
 # 用法: bash scripts/restore_openclaw.sh
+#
+# 此脚本会从备份目录覆盖 workspace 的全部文件。
+# 如果备份是旧版本，会导致近期修改丢失。
+# 仅应在 workspace 严重损坏时使用。
 
 BACKUP_DIR="$HOME/openclaw-backup"
 DEST_DIR="$HOME/.openclaw/workspace"
@@ -11,13 +15,36 @@ if [[ ! -d "$BACKUP_DIR" ]]; then
     exit 1
 fi
 
-echo "🔄 开始从备份恢复..."
+echo ""
+echo "⚠️⚠️⚠️  警告！ ⚠️⚠️⚠️"
+echo "此操作会用备份覆盖以下内容："
+echo "  - MEMORY.md"
+echo "  - AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md"
+echo "  - memory/ 目录（所有学习笔记）"
+echo "  - scripts/ 目录（所有脚本）"
+echo "  - HEARTBEAT.md"
+echo ""
+echo "如果备份不是最新版本，近期修改将丢失！"
+echo ""
+
+# 检查备份新鲜度
+BACKUP_TIME=$(stat -f "%Sm" "$BACKUP_DIR/MEMORY.md" 2>/dev/null || echo "未知")
+echo "📅 备份时间: $BACKUP_TIME"
+echo ""
+
+read -p "确认恢复？(输入 yes 继续): " CONFIRM
+if [[ "$CONFIRM" != "yes" ]]; then
+    echo "❌ 已取消"
+    exit 0
+fi
 
 # 检查 workspace 是否存在
 if [[ ! -d "$DEST_DIR" ]]; then
     echo "❌ Workspace 目录不存在，请先安装 OpenClaw"
     exit 1
 fi
+
+echo "🔄 开始从备份恢复..."
 
 # 恢复核心文件
 cp -f "$BACKUP_DIR/MEMORY.md" "$DEST_DIR/MEMORY.md"

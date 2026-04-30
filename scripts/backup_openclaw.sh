@@ -1,5 +1,6 @@
 #!/bin/bash
 # OpenClaw 记忆与学习内容备份脚本
+# 安全提示：此脚本只做本地→远程的单向同步，不会覆盖本地文件
 # 用法:
 #   bash scripts/backup_openclaw.sh           # 本地备份（心跳调用）
 #   bash scripts/backup_openclaw.sh github    # 本地 + GitHub 推送（定时任务调用）
