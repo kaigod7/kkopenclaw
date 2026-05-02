@@ -111,7 +111,12 @@ def main():
         prob = h.get("probability", 0)
         if isinstance(prob, (int, float)) and len(dt) >= 13:
             t = dt[11:16]; p = int(prob)
-            e = sk_emoji.get(smap.get(t, "🌙"), "🌙")
+            skycon_val = smap.get(t)
+            if skycon_val and sk_emoji.get(skycon_val):
+                e = sk_emoji[skycon_val]
+            else:
+                # 有降水概率就用🌧️，否则用☀️
+                e = "🌧️" if p > 0 else "☀️"
             rain_lines.append(f"{to_emoji_time(t)} │ {e}" + (f" │ {p}%" if p > 0 else ""))
 
     rf = "\n".join(rain_lines) if rain_lines else "未来6小时无显著降雨"
