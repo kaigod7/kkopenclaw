@@ -234,3 +234,12 @@ doc.close(SaveOptions.DONOTSAVECHANGES);
 - **問題**：`evening_news.sh` 的 `build_evening_card` 逐小時降水概率數據來自 `hourly.precipitation`，但當降級到 QWeather 或 Open-Meteo 時，返回的 `probability` 字段格式可能與 Caiyun 不同（如 Caiyun 返回 0-1 小數，QWeather 返回 0-100 整數），導致 `int(h["datetime"][11:13])` 解析出錯或 `rain_row` 過濾條件不匹配。 [score=0.849 recalls=0 avg=0.620 source=memory/2026-04-27.md:4-4]
 <!-- openclaw-memory-promotion:memory:memory/2026-04-27.md:6:6 -->
 - **根本原因**：天氣 API 降級後數據格式不一致，build_evening_card 沒有針對不同數據源做適配。 [score=0.849 recalls=0 avg=0.620 source=memory/2026-04-27.md:6-6]
+
+## Promoted From Short-Term Memory (2026-05-04)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:12:12 -->
+- 老K要求"整理下最近的记忆"，进行了以下清洗： [score=0.827 recalls=0 avg=0.620 source=memory/2026-04-29.md:12-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:14:14 -->
+- **已更新：** [score=0.827 recalls=0 avg=0.620 source=memory/2026-04-29.md:14-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:33:33 -->
+- 格式：Feishu interactive 卡片，**每行一个独立 div 元素** [score=0.827 recalls=0 avg=0.620 source=memory/2026-04-29.md:33-33]
