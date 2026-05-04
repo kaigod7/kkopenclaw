@@ -243,3 +243,14 @@ doc.close(SaveOptions.DONOTSAVECHANGES);
 - **已更新：** [score=0.827 recalls=0 avg=0.620 source=memory/2026-04-29.md:14-14]
 <!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:33:33 -->
 - 格式：Feishu interactive 卡片，**每行一个独立 div 元素** [score=0.827 recalls=0 avg=0.620 source=memory/2026-04-29.md:33-33]
+
+## Promoted From Short-Term Memory (2026-05-05)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-13.md:135:152 -->
+- - evidence: memory/.dreams/session-corpus/2026-04-13.txt:5-5 - recalls: 0 - status: staged - Candidate: Assistant: 好嘞，让我找几个国内靠谱的天气 API 对比一下。 - confidence: 0.00 - evidence: memory/.dreams/session-corpus/2026-04-13.txt:6-6 - recalls: 0 - status: staged - Candidate: Assistant: 整理一下对比结论： **国内天气源推荐：** | 服务 | 免费额度 | 优点 | 缺点 | |------|---------|------|------| | 🌐 **高德天气API** | 30万次/天 | 国内最稳、免费额度大 | 需要申请 API Key | | ☁️ **Open-Meteo** | 无限制 | 之前在用 | 海外节点，今天502挂了 | | 🌤️ **和风天气** | 有限制 | 数据全 | 已改认证方式，较复杂 | **推荐切到高德**，国内节点，30万次/天额度完全够用。需要你提供一个高德开放平 - confidence: 0.00 - evidence: memory/.dreams/session-corpus/2026-04-13.txt:7-7 - recalls: 0 - status: staged - Candidate: Reflections: Theme: `assistant` kept surfacing across 2242 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-07.txt:1-1, memory/.dreams/session-corpus/2026-04-07.txt:3-3, memory/.dreams/session-corpus/2026-04-07.txt:4-4; note: reflection - confidence: 0.00 - evidence: memory/2026-04-12.md:273-276 - recalls: 0 - status: staged [score=0.930 recalls=4 avg=1.000 source=memory/2026-04-13.md:135-152]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:35:38 -->
+- // ✅ 正确格式（每行独立 div） {"tag": "div", "text": {"tag": "lark_md", "content": "**━━━ 📍 武汉天气 ━━━**"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "晴 16°C | 湿度 61%"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "风力 9 km/h | 风向 东北"}}, [score=0.861 recalls=0 avg=0.620 source=memory/2026-04-29.md:35-38]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:39:42 -->
+- {"tag": "div", "text": {"tag": "lark_md", "content": "**━━━ 🌫️ 空气质量 ━━━**"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "AQI 30（优） PM2.5: 19 | PM10: 26"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "**━━━ 💧 未来6小时天气 ━━━**"}}, [score=0.861 recalls=0 avg=0.620 source=memory/2026-04-29.md:39-41]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:43:44 -->
+- {"tag": "div", "text": {"tag": "lark_md", "content": "**━━━ 🌅 日出日落 ━━━**"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "日出 05:40 | 日落 18:59"}} [score=0.861 recalls=0 avg=0.620 source=memory/2026-04-29.md:43-44]
