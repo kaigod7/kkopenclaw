@@ -1,0 +1,1 @@
+[main/sessions/f7f93847-fad6-47a3-b3ae-e04dd518f13d.jsonl#L2079] Assistant: 🆕 OpenClaw 更新至 **2026.5.3-1** 了～ `npm update -g openclaw` 升级

@@ -254,3 +254,10 @@ doc.close(SaveOptions.DONOTSAVECHANGES);
 - {"tag": "div", "text": {"tag": "lark_md", "content": "**━━━ 🌫️ 空气质量 ━━━**"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "AQI 30（优） PM2.5: 19 | PM10: 26"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "**━━━ 💧 未来6小时天气 ━━━**"}}, [score=0.861 recalls=0 avg=0.620 source=memory/2026-04-29.md:39-41]
 <!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:43:44 -->
 - {"tag": "div", "text": {"tag": "lark_md", "content": "**━━━ 🌅 日出日落 ━━━**"}}, {"tag": "div", "text": {"tag": "lark_md", "content": "日出 05:40 | 日落 18:59"}} [score=0.861 recalls=0 avg=0.620 source=memory/2026-04-29.md:43-44]
+
+## Promoted From Short-Term Memory (2026-05-06)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:46:48 -->
+- // ❌ 错误格式（区块分组） // 不同内容塞一个 div 里用 \n 隔开 // 用 hr 分割线 [score=0.885 recalls=0 avg=0.620 source=memory/2026-04-29.md:46-48]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-29.md:50:50 -->
+- 要素顺序：当前天气 → 空气质量 → 未来6小时 → 日出日落 [score=0.885 recalls=0 avg=0.620 source=memory/2026-04-29.md:50-50]
