@@ -1,0 +1,21 @@
+import json
+
+# 模型数据
+models = [
+    {"rank": 1, "model": "DeepSeek V3.2", "company": "DeepSeek", "perf": 9.5, "iq": 9.4, "value": 9.8, "overall": 9.6, "emoji": "🥇"},
+    {"rank": 2, "model": "千问 Qwen 3.5-Plus", "company": "阿里巴巴", "perf": 9.3, "iq": 9.2, "value": 9.5, "overall": 9.4, "emoji": "🥈"},
+    {"rank": 3, "model": "Kimi K2.5", "company": "月之暗面", "perf": 9.2, "iq": 9.3, "value": 9.0, "overall": 9.2, "emoji": "🥉"},
+    {"rank": 4, "model": "豆包 2.0 Pro", "company": "字节跳动", "perf": 9.1, "iq": 9.0, "value": 9.3, "overall": 9.1, "emoji": "4️⃣"},
+    {"rank": 5, "model": "GLM-5", "company": "智谱AI", "perf": 9.0, "iq": 9.1, "value": 8.9, "overall": 9.0, "emoji": "5️⃣"},
+    {"rank": 6, "model": "MiniMax M2.5", "company": "MiniMax", "perf": 8.9, "iq": 8.8, "value": 9.2, "overall": 8.9, "emoji": "6️⃣"},
+    {"rank": 7, "model": "元宝", "company": "腾讯", "perf": 8.8, "iq": 8.7, "value": 8.6, "overall": 8.7, "emoji": "7️⃣"},
+    {"rank": 8, "model": "文心 5.0", "company": "百度", "perf": 8.7, "iq": 8.6, "value": 8.5, "overall": 8.6, "emoji": "8️⃣"},
+    {"rank": 9, "model": "百川", "company": "百川智能", "perf": 8.5, "iq": 8.4, "value": 8.3, "overall": 8.4, "emoji": "9️⃣"},
+    {"rank": 10, "model": "360智脑", "company": "360", "perf": 8.2, "iq": 8.1, "value": 8.0, "overall": 8.1, "emoji": "🔟"},
+]
+
+# 保存为JSON供后续使用
+with open("/Users/kk/.openclaw/workspace/tmp/models_data.json", "w") as f:
+    json.dump(models, f, ensure_ascii=False, indent=2)
+
+print("Data prepared")

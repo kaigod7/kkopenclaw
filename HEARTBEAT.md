@@ -2,6 +2,9 @@
 
 ## 每次心跳自动执行
 - 运行 `bash $HOME/.openclaw/workspace/scripts/backup_openclaw.sh` 进行本地备份
+- **检查 OpenClaw 版本更新**：运行 `bash $HOME/.openclaw/workspace/scripts/check_openclaw_update.sh`
+  - 有新版本时通过 Gateway API 发飞书私聊通知老K（带 changelog）
+  - 已通知过的版本不重复通知（自动更新 `lastTouchedVersion`）
 - 无需询问，直接执行
 - **检查OpenClaw版本**：每次心跳必须执行，发现新版本**必须发送消息通知老K**
   - 获取版本：先直连 npm，失败走代理，再失败跳过（留待下次心跳重试）
